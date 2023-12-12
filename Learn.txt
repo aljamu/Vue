@@ -12,3 +12,5 @@ Notes from Learning with this course: https://www.youtube.com/watch?v=1GNsWa_EZd
     - we need to use directive v-bind:href to access javascript in html tag (instead of v-bind:href="" we only write :href="")
         - added another v-bind: >> :title="..." <<
     - Adding index as key for Vue to do its thing
+
+4.) Turn the Page into Single-Page-Application & Add an Event Listener
