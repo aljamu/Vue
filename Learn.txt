@@ -1,0 +1,4 @@
+Notes from Learning with this course: https://www.youtube.com/watch?v=1GNsWa_EZdw
+
+1.) Hard Code a h1 and p on the Website. Use Bootstrap to style and <script src="https://unpkg.com/vue@3"></script> to use Vue without Build Tools
+
