@@ -9,8 +9,18 @@
 </head>
 <body>
     <div id="content" class="container">
-        <h1>Hello World!</h1> <!-- Hard coded onto the Website -->
-        <p>This is Text inside a p Tag</p> <!-- Hard coded onto the Website -->
+        <h1>{{ pageTitle }}</h1> <!-- Soft coded onto the Website -->
+        <p>{{ content }}</p> <!-- Soft coded onto the Website -->
     </div>
+    <script>//script after html Tags, so that the page loads first, then the script
+        Vue.createApp({
+            data() {
+                return {
+                    pageTitle: "Hello, Vue!",
+                    content: "Welcome to this page :)"
+                };
+            }
+        }).mount("#content");    //creates a Vue instance; a page can have multiple; To mount this Application to the DOM somewhere ->.mount("[html Element]") <- idF div mit id="content";
+    </script>
 </body>
 </html>

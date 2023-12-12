@@ -2,3 +2,5 @@ Notes from Learning with this course: https://www.youtube.com/watch?v=1GNsWa_EZd
 
 1.) Hard Code a h1 and p on the Website. Use Bootstrap to style and <script src="https://unpkg.com/vue@3"></script> to use Vue without Build Tools
 
+2.) Soft code using Vue -> Provide Data and let it show on the webapp
+    Create an Object in the Script (script comes after loading the page=>after h1 and p tag)
