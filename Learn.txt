@@ -9,4 +9,5 @@ Notes from Learning with this course: https://www.youtube.com/watch?v=1GNsWa_EZd
 3.1) Soft Coding simple Navbar:
     - v:for: instead of Coding a for loop in Javascript we use the Vue directive v-for in the element we want to loop
     - actually using links in href instead of # -> Change array with link names to an Array of Objects containing the name and the link ref
-    - we need to use directive v-bind:href to access javascript in html tag (instead of v-bind:href="" we only write :href="") 
+    - we need to use directive v-bind:href to access javascript in html tag (instead of v-bind:href="" we only write :href="")
+        - added another v-bind: >> :title="..." <<
